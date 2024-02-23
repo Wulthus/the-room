@@ -39,7 +39,7 @@ const StyledScreen = styled.div.attrs(props=>({
   },
 }))`
 
-background-image: url("../public/canvas.webp");
+background-image: url("canvas.webp");
 
 width: 75%;
 height: 75%;
