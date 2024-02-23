@@ -1,0 +1,51 @@
+/* //////////////////////////////////////////////////// */
+/* GLOBAL RESET  */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  line-height: 1.5;
+  font-family: 'Julius Sans One', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+/* VARIABLES */
+
+:root {
+  --font-xl: 3.5rem;
+  --font-l: 2.2rem;
+  --font-m: 1.4rem;
+  --font-s: 1.0rem;
+
+  --color-hover: rgb(255, 0, 0);
+  --color-font: #000;
+  --color-greyed-out: #959595;
+  --color-screen: rgba(255, 237, 210, 1);
+  --color-screen-half: rgba(255, 237, 210, 0.6);
+  --modals-background: linear-gradient(133deg, #f3f3f3 0%, rgba(253, 253, 253, 0.7) 70%, rgba(232, 232, 232, 0.5) 100%);
+  --modals-text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+  --wall-gradient: radial-gradient(circle at 50% 50%, rgba(255, 237, 210, 0.7) 0%, rgba(0,0,0,0.45) 100%);
+  --box-shadow-hover: 0rem 0rem 0rem .5rem rgba(255, 255, 255, .7)
+}
+
+
